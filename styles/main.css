@@ -1,0 +1,168 @@
+tml,
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #001c3a;
+  scroll-behavior: smooth;
+}
+
+.nav-bar {
+  height: 100px;
+  background: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nav-bar__anchor {
+  text-decoration: none;
+  width: 10%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bar__img-div {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: #3cd483;
+}
+
+.nav-bar__img {
+  width: 100%;
+}
+
+.nav-bar__heading {
+  margin: 0;
+  height: 50%;
+  width: 20%;
+  font-size: 24 px;
+  text-align: center;
+  color: #001c3a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header {
+  margin-top: 20%;
+  padding-left: 10%;
+}
+
+.header__title {
+  font-size: 48px;
+}
+
+.header__pronounce {
+  font-weight: 600;
+}
+
+.header__definition {
+  font-style: italic;
+  width: 30%;
+  font-weight: 600;
+}
+
+.crypto__data {
+  margin: 25% auto 15% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.crypto__data-heading {
+  font-size: 56px;
+  text-align: center;
+  width: 30%;
+}
+
+.dataWrapper {
+  width: 30%;
+  background: #001c3a;
+  border-radius: 10px;
+  padding: 20px 0;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px;
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px;
+}
+
+.dataWrapper .coinTicker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px 0;
+  font-weight: 600;
+}
+
+.dataWrapper .coinTicker .coinSymbol {
+  color: #8193b5;
+}
+
+.dataWrapper .coinTicker .coinPrice {
+  color: #fafafa;
+}
+
+.dataWrapper .coinTicker .coinChange {
+  color: #3cd483;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15%;
+  margin-bottom: 15%;
+}
+
+.about__heading {
+  font-size: 32px;
+}
+
+.about__paragraph {
+  line-height: 1.5rem;
+}
+
+.about .bold {
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */

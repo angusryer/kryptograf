@@ -12,4 +12,4 @@ Kryptograf is the fun result of a half-day hack-a-thon through the BrainStation 
 1. CoinRanking
 
 ## Current hosting location:
-Netlify --> https://eager-kalam-bc7e42.netlify.app
+Netlify --> https://kryptograf.netlify.app
